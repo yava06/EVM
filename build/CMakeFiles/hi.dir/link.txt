@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/hi.dir/hi.cpp.o  -o hi  libCOMPUTER.a 

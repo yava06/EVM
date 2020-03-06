@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yava06/ЭВМ/lab2.cpp/command.hpp
+
+/home/yava06/ЭВМ/lab2.cpp/hi.cpp
+iostream
+-
+stdlib.h
+-
+stdio.h
+-
+inttypes.h
+-
+command.hpp
+/home/yava06/ЭВМ/lab2.cpp/command.hpp
+regist.hpp
+/home/yava06/ЭВМ/lab2.cpp/regist.hpp
+memory.hpp
+/home/yava06/ЭВМ/lab2.cpp/memory.hpp
+
+/home/yava06/ЭВМ/lab2.cpp/memory.hpp
+regist.hpp
+/home/yava06/ЭВМ/lab2.cpp/regist.hpp
+
+/home/yava06/ЭВМ/lab2.cpp/regist.hpp
+
