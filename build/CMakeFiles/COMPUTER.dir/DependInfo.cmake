@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yava06/ЭВМ/lab2.cpp/command.cpp" "/home/yava06/ЭВМ/lab2.cpp/build/CMakeFiles/COMPUTER.dir/command.cpp.o"
-  "/home/yava06/ЭВМ/lab2.cpp/memory.cpp" "/home/yava06/ЭВМ/lab2.cpp/build/CMakeFiles/COMPUTER.dir/memory.cpp.o"
-  "/home/yava06/ЭВМ/lab2.cpp/regist.cpp" "/home/yava06/ЭВМ/lab2.cpp/build/CMakeFiles/COMPUTER.dir/regist.cpp.o"
+  "/home/yava06/ЭВМ/EVM/BigChar.cpp" "/home/yava06/ЭВМ/EVM/build/CMakeFiles/COMPUTER.dir/BigChar.cpp.o"
+  "/home/yava06/ЭВМ/EVM/command.cpp" "/home/yava06/ЭВМ/EVM/build/CMakeFiles/COMPUTER.dir/command.cpp.o"
+  "/home/yava06/ЭВМ/EVM/memory.cpp" "/home/yava06/ЭВМ/EVM/build/CMakeFiles/COMPUTER.dir/memory.cpp.o"
+  "/home/yava06/ЭВМ/EVM/regist.cpp" "/home/yava06/ЭВМ/EVM/build/CMakeFiles/COMPUTER.dir/regist.cpp.o"
+  "/home/yava06/ЭВМ/EVM/terminal.cpp" "/home/yava06/ЭВМ/EVM/build/CMakeFiles/COMPUTER.dir/terminal.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

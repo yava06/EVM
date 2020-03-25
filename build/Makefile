@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/252/bin/cmake
+CMAKE_COMMAND = /snap/cmake/283/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/252/bin/cmake -E remove -f
+RM = /snap/cmake/283/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yava06/ЭВМ/lab2.cpp
+CMAKE_SOURCE_DIR = /home/yava06/ЭВМ/EVM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yava06/ЭВМ/lab2.cpp/build
+CMAKE_BINARY_DIR = /home/yava06/ЭВМ/EVM/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/yava06/ЭВМ/lab2.cpp/build
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/252/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/283/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/snap/cmake/252/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/283/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yava06/ЭВМ/lab2.cpp/build/CMakeFiles /home/yava06/ЭВМ/lab2.cpp/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yava06/ЭВМ/EVM/build/CMakeFiles /home/yava06/ЭВМ/EVM/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yava06/ЭВМ/lab2.cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yava06/ЭВМ/EVM/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -135,6 +135,33 @@ hi: cmake_check_build_system
 hi/fast:
 	$(MAKE) -f CMakeFiles/hi.dir/build.make CMakeFiles/hi.dir/build
 .PHONY : hi/fast
+
+BigChar.o: BigChar.cpp.o
+
+.PHONY : BigChar.o
+
+# target to build an object file
+BigChar.cpp.o:
+	$(MAKE) -f CMakeFiles/COMPUTER.dir/build.make CMakeFiles/COMPUTER.dir/BigChar.cpp.o
+.PHONY : BigChar.cpp.o
+
+BigChar.i: BigChar.cpp.i
+
+.PHONY : BigChar.i
+
+# target to preprocess a source file
+BigChar.cpp.i:
+	$(MAKE) -f CMakeFiles/COMPUTER.dir/build.make CMakeFiles/COMPUTER.dir/BigChar.cpp.i
+.PHONY : BigChar.cpp.i
+
+BigChar.s: BigChar.cpp.s
+
+.PHONY : BigChar.s
+
+# target to generate assembly for a file
+BigChar.cpp.s:
+	$(MAKE) -f CMakeFiles/COMPUTER.dir/build.make CMakeFiles/COMPUTER.dir/BigChar.cpp.s
+.PHONY : BigChar.cpp.s
 
 command.o: command.cpp.o
 
@@ -244,6 +271,33 @@ regist.cpp.s:
 	$(MAKE) -f CMakeFiles/COMPUTER.dir/build.make CMakeFiles/COMPUTER.dir/regist.cpp.s
 .PHONY : regist.cpp.s
 
+terminal.o: terminal.cpp.o
+
+.PHONY : terminal.o
+
+# target to build an object file
+terminal.cpp.o:
+	$(MAKE) -f CMakeFiles/COMPUTER.dir/build.make CMakeFiles/COMPUTER.dir/terminal.cpp.o
+.PHONY : terminal.cpp.o
+
+terminal.i: terminal.cpp.i
+
+.PHONY : terminal.i
+
+# target to preprocess a source file
+terminal.cpp.i:
+	$(MAKE) -f CMakeFiles/COMPUTER.dir/build.make CMakeFiles/COMPUTER.dir/terminal.cpp.i
+.PHONY : terminal.cpp.i
+
+terminal.s: terminal.cpp.s
+
+.PHONY : terminal.s
+
+# target to generate assembly for a file
+terminal.cpp.s:
+	$(MAKE) -f CMakeFiles/COMPUTER.dir/build.make CMakeFiles/COMPUTER.dir/terminal.cpp.s
+.PHONY : terminal.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -254,6 +308,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... COMPUTER"
 	@echo "... hi"
+	@echo "... BigChar.o"
+	@echo "... BigChar.i"
+	@echo "... BigChar.s"
 	@echo "... command.o"
 	@echo "... command.i"
 	@echo "... command.s"
@@ -266,6 +323,9 @@ help:
 	@echo "... regist.o"
 	@echo "... regist.i"
 	@echo "... regist.s"
+	@echo "... terminal.o"
+	@echo "... terminal.i"
+	@echo "... terminal.s"
 .PHONY : help
 
 

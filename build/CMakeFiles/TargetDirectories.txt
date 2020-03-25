@@ -1,4 +1,4 @@
-/home/yava06/ЭВМ/lab2.cpp/build/CMakeFiles/rebuild_cache.dir
-/home/yava06/ЭВМ/lab2.cpp/build/CMakeFiles/edit_cache.dir
-/home/yava06/ЭВМ/lab2.cpp/build/CMakeFiles/COMPUTER.dir
-/home/yava06/ЭВМ/lab2.cpp/build/CMakeFiles/hi.dir
+/home/yava06/ЭВМ/EVM/build/CMakeFiles/rebuild_cache.dir
+/home/yava06/ЭВМ/EVM/build/CMakeFiles/edit_cache.dir
+/home/yava06/ЭВМ/EVM/build/CMakeFiles/COMPUTER.dir
+/home/yava06/ЭВМ/EVM/build/CMakeFiles/hi.dir

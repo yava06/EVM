@@ -1,4 +1,4 @@
-# Install script for directory: /home/yava06/ЭВМ/lab2.cpp
+# Install script for directory: /home/yava06/ЭВМ/EVM
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yava06/ЭВМ/lab2.cpp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yava06/ЭВМ/EVM/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

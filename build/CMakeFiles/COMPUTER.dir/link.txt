@@ -1,2 +1,2 @@
-/usr/bin/ar qc libCOMPUTER.a  CMakeFiles/COMPUTER.dir/command.cpp.o CMakeFiles/COMPUTER.dir/memory.cpp.o CMakeFiles/COMPUTER.dir/regist.cpp.o
+/usr/bin/ar qc libCOMPUTER.a  CMakeFiles/COMPUTER.dir/command.cpp.o CMakeFiles/COMPUTER.dir/memory.cpp.o CMakeFiles/COMPUTER.dir/regist.cpp.o CMakeFiles/COMPUTER.dir/terminal.cpp.o CMakeFiles/COMPUTER.dir/BigChar.cpp.o
 /usr/bin/ranlib libCOMPUTER.a
