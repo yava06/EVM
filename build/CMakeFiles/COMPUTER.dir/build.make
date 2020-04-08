@@ -43,10 +43,10 @@ RM = /snap/cmake/283/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yava06/ЭВМ/EVM
+CMAKE_SOURCE_DIR = /home/yava06/EVM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yava06/ЭВМ/EVM/build
+CMAKE_BINARY_DIR = /home/yava06/EVM/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/COMPUTER.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/COMPUTER.dir/flags.make
 
 CMakeFiles/COMPUTER.dir/command.cpp.o: CMakeFiles/COMPUTER.dir/flags.make
 CMakeFiles/COMPUTER.dir/command.cpp.o: ../command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yava06/ЭВМ/EVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COMPUTER.dir/command.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMPUTER.dir/command.cpp.o -c /home/yava06/ЭВМ/EVM/command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yava06/EVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/COMPUTER.dir/command.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMPUTER.dir/command.cpp.o -c /home/yava06/EVM/command.cpp
 
 CMakeFiles/COMPUTER.dir/command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMPUTER.dir/command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yava06/ЭВМ/EVM/command.cpp > CMakeFiles/COMPUTER.dir/command.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yava06/EVM/command.cpp > CMakeFiles/COMPUTER.dir/command.cpp.i
 
 CMakeFiles/COMPUTER.dir/command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMPUTER.dir/command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yava06/ЭВМ/EVM/command.cpp -o CMakeFiles/COMPUTER.dir/command.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yava06/EVM/command.cpp -o CMakeFiles/COMPUTER.dir/command.cpp.s
 
 CMakeFiles/COMPUTER.dir/memory.cpp.o: CMakeFiles/COMPUTER.dir/flags.make
 CMakeFiles/COMPUTER.dir/memory.cpp.o: ../memory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yava06/ЭВМ/EVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COMPUTER.dir/memory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMPUTER.dir/memory.cpp.o -c /home/yava06/ЭВМ/EVM/memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yava06/EVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/COMPUTER.dir/memory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMPUTER.dir/memory.cpp.o -c /home/yava06/EVM/memory.cpp
 
 CMakeFiles/COMPUTER.dir/memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMPUTER.dir/memory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yava06/ЭВМ/EVM/memory.cpp > CMakeFiles/COMPUTER.dir/memory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yava06/EVM/memory.cpp > CMakeFiles/COMPUTER.dir/memory.cpp.i
 
 CMakeFiles/COMPUTER.dir/memory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMPUTER.dir/memory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yava06/ЭВМ/EVM/memory.cpp -o CMakeFiles/COMPUTER.dir/memory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yava06/EVM/memory.cpp -o CMakeFiles/COMPUTER.dir/memory.cpp.s
 
 CMakeFiles/COMPUTER.dir/regist.cpp.o: CMakeFiles/COMPUTER.dir/flags.make
 CMakeFiles/COMPUTER.dir/regist.cpp.o: ../regist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yava06/ЭВМ/EVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COMPUTER.dir/regist.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMPUTER.dir/regist.cpp.o -c /home/yava06/ЭВМ/EVM/regist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yava06/EVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/COMPUTER.dir/regist.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMPUTER.dir/regist.cpp.o -c /home/yava06/EVM/regist.cpp
 
 CMakeFiles/COMPUTER.dir/regist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMPUTER.dir/regist.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yava06/ЭВМ/EVM/regist.cpp > CMakeFiles/COMPUTER.dir/regist.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yava06/EVM/regist.cpp > CMakeFiles/COMPUTER.dir/regist.cpp.i
 
 CMakeFiles/COMPUTER.dir/regist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMPUTER.dir/regist.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yava06/ЭВМ/EVM/regist.cpp -o CMakeFiles/COMPUTER.dir/regist.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yava06/EVM/regist.cpp -o CMakeFiles/COMPUTER.dir/regist.cpp.s
 
 CMakeFiles/COMPUTER.dir/terminal.cpp.o: CMakeFiles/COMPUTER.dir/flags.make
 CMakeFiles/COMPUTER.dir/terminal.cpp.o: ../terminal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yava06/ЭВМ/EVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COMPUTER.dir/terminal.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMPUTER.dir/terminal.cpp.o -c /home/yava06/ЭВМ/EVM/terminal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yava06/EVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/COMPUTER.dir/terminal.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMPUTER.dir/terminal.cpp.o -c /home/yava06/EVM/terminal.cpp
 
 CMakeFiles/COMPUTER.dir/terminal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMPUTER.dir/terminal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yava06/ЭВМ/EVM/terminal.cpp > CMakeFiles/COMPUTER.dir/terminal.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yava06/EVM/terminal.cpp > CMakeFiles/COMPUTER.dir/terminal.cpp.i
 
 CMakeFiles/COMPUTER.dir/terminal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMPUTER.dir/terminal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yava06/ЭВМ/EVM/terminal.cpp -o CMakeFiles/COMPUTER.dir/terminal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yava06/EVM/terminal.cpp -o CMakeFiles/COMPUTER.dir/terminal.cpp.s
 
 CMakeFiles/COMPUTER.dir/BigChar.cpp.o: CMakeFiles/COMPUTER.dir/flags.make
 CMakeFiles/COMPUTER.dir/BigChar.cpp.o: ../BigChar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yava06/ЭВМ/EVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COMPUTER.dir/BigChar.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMPUTER.dir/BigChar.cpp.o -c /home/yava06/ЭВМ/EVM/BigChar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yava06/EVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/COMPUTER.dir/BigChar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/COMPUTER.dir/BigChar.cpp.o -c /home/yava06/EVM/BigChar.cpp
 
 CMakeFiles/COMPUTER.dir/BigChar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/COMPUTER.dir/BigChar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yava06/ЭВМ/EVM/BigChar.cpp > CMakeFiles/COMPUTER.dir/BigChar.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yava06/EVM/BigChar.cpp > CMakeFiles/COMPUTER.dir/BigChar.cpp.i
 
 CMakeFiles/COMPUTER.dir/BigChar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/COMPUTER.dir/BigChar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yava06/ЭВМ/EVM/BigChar.cpp -o CMakeFiles/COMPUTER.dir/BigChar.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yava06/EVM/BigChar.cpp -o CMakeFiles/COMPUTER.dir/BigChar.cpp.s
 
 # Object files for target COMPUTER
 COMPUTER_OBJECTS = \
@@ -140,7 +140,7 @@ libCOMPUTER.a: CMakeFiles/COMPUTER.dir/terminal.cpp.o
 libCOMPUTER.a: CMakeFiles/COMPUTER.dir/BigChar.cpp.o
 libCOMPUTER.a: CMakeFiles/COMPUTER.dir/build.make
 libCOMPUTER.a: CMakeFiles/COMPUTER.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yava06/ЭВМ/EVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libCOMPUTER.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yava06/EVM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libCOMPUTER.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/COMPUTER.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/COMPUTER.dir/link.txt --verbose=$(VERBOSE)
 
@@ -154,6 +154,6 @@ CMakeFiles/COMPUTER.dir/clean:
 .PHONY : CMakeFiles/COMPUTER.dir/clean
 
 CMakeFiles/COMPUTER.dir/depend:
-	cd /home/yava06/ЭВМ/EVM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yava06/ЭВМ/EVM /home/yava06/ЭВМ/EVM /home/yava06/ЭВМ/EVM/build /home/yava06/ЭВМ/EVM/build /home/yava06/ЭВМ/EVM/build/CMakeFiles/COMPUTER.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yava06/EVM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yava06/EVM /home/yava06/EVM /home/yava06/EVM/build /home/yava06/EVM/build /home/yava06/EVM/build/CMakeFiles/COMPUTER.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/COMPUTER.dir/depend
 

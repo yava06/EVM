@@ -6,25 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/yava06/ЭВМ/EVM/BigChar.cpp
-BigChar.hpp
-/home/yava06/ЭВМ/EVM/BigChar.hpp
-terminal.hpp
-/home/yava06/ЭВМ/EVM/terminal.hpp
-iostream
--
-
-/home/yava06/ЭВМ/EVM/BigChar.hpp
-iostream
--
-
-/home/yava06/ЭВМ/EVM/terminal.hpp
-iostream
--
-sys/ioctl.h
--
-stdio.h
--
-unistd.h
--
-
